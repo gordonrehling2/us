@@ -1,6 +1,6 @@
 FROM golang:1.11
 
-WORKDIR /go/src/app
+WORKDIR /go/src/us
 COPY . .
 
 RUN go get -d -v ./...
